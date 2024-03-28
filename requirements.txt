@@ -1,0 +1,7 @@
+allennlp==1.2.2
+allennlp-models ==1.2.2
+torch==1.7.1+cu110
+tensorboardX
+tqdm
+seqeval==1.2.2
+stanza==1.5.1
