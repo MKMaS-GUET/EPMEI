@@ -21,7 +21,7 @@ CUDA_VISIBLE_DEVICES=$GPU_ID  python3  run_sc.py  --model_type bertsub  \
     --test_file result/ner/14lap/train_ner43/ent_pred_test_pro.json \
     --use_ner_results \
     --use_typemarker --gcn --n_gcn 2\
-    --output_dir result/re/$dataset/result$seed --overwrite_output_dir --focalloss
+    --output_dir result/sc/$dataset/result$seed --overwrite_output_dir --focalloss
 done;
 # Average the scores
 #python3 sumup.py scire scire-scibert
